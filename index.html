@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="./main.css">
+    
+
+    <title>Servikasa</title>
+  </head>
+  <body>
+
+  	<header class="container-fluid bg-primary d-flex justify-content-center">
+
+  		<p class="text-light mb-0 p-2 fs-6">Contactanos 0999075409</p>
+
+  	</header>
+
+  	<nav class="navbar navbar-expand-lg navbar-light bg-light p-3" id="menu">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+    <span class="text-primary fs-5 fw-bold">Servikasa</span> 
+</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#equipo">Servicios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#seccion-contacto">Contacto</a>
+        </li>
+    </ul>
+        
+      <!--<form class="d-flex">
+        <input class="form-control me-2" type="email" placeholder="Correo Electronico" aria-label="emial">
+        <button class="btn btn-outline-primary" type="button">Suscribete</button>
+      </form>-->
+      <a href="https://api.whatsapp.com/send?phone=0989655581&text=Hola%20quisiera%20mas%20informaci%C3%B3n"><i class="bi bi-whatsapp"></i></a>
+      
+    </div>
+  </div>
+</nav>
+
+<!-- Slider de imagenes -->
+
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="3000">
+      <img src="./img/servikasa1.png" class="d-block w-100" alt="slide1">
+    </div>
+    <div class="carousel-item" data-bs-interval="3000">
+      <img src="./img/servikasa2.png" class="d-block w-100" alt="slide2">
+    </div>
+    <div class="carousel-item" data-bs-interval="3000">
+      <img src="./img/publicidadbanner.png" class="d-block w-100" alt="slide3">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    
+    <!-- INTRO -->
+
+    <section class="w-50 mx-auto text-center pt-5" id="intro">
+    	<h1 class="p-3 fs-2 border-top border-3">La casa de tus sueños aquí<span class="text-primary"> S.K.Inmobiliaria</span></h1>
+    	<p class="p-3 fs-4"><span class="text-primary">Servikasa</span> Somos la empresa que te ayudara a encontrar la casa de tus sueños.</p>
+
+    </section>
+
+    <!-- SERVICIOS -->
+
+    <section class="container-fluid">
+    	<div class="row w-75 mx-auto servicio-fila">
+    		<div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+    			<img src="./img/inmobiliaria.png" alt="servikasa4" width="180" height="160">
+    			<div>
+    				<h3 class="fs-5 mt-4 px-4 pb-1">Ventas</h3>
+    				<p class="px-4">Servicios generales de bienes raices</p>
+    			</div>
+    		</div>
+    		<div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+    			<img src="./img/servikasa4.png" alt="servikasa4" width="180" height="160">
+    			<div>
+    				<h3 class="fs-5 mt-4 px-4 pb-1">Servicios</h3>
+    				<p class="px-4">Servicios generales para el hogar</p>
+    			</div>
+    		</div>
+    	</div>
+
+    </section>
+
+     <!-- ACERCA DE NOSOTROS -->
+
+     <section>
+     	<div class="w-50 m-auto text-center" id="equipo">
+     		<h1 class="mb-5 fs-2">Somos una empresa dedicada al <span class="text-primary">Bienestar de nuestros clientes</span></h1>
+     		<p class="fs-4">Siempre buscamos a las personas adecuadas para que trabajen con nosotros.</p>
+     	</div>
+     	<div class="mt-5 text-center">
+     		<img class="img-fluid" src="./img/servikasa5.png" alt="equipo">
+     	</div>
+
+     	<div id="local" class="border-top border-2">
+     		<div class="mapa"></div>
+     		<div>
+     			<div class="wrapper">
+     				<h2>Ubicado en Ambato, Ecuador</h2>
+     				<h2 class="text-primary mb-4" id="typewriter"></h2>
+     				<p class="fs-5 text-body">Elejimos esta bella ciudad por su ubicación, su clima y sus facilidades y beneficios para sus habitantes.</p>
+     				<section class="d-flex" id="numeros-local">
+     					<div>
+     						<p class="text-primary fs-5">248</p>
+     						<p>Días de sol</p>
+     					</div>
+     					<div>
+     						<p class="text-primary fs-5">100%</p>
+     						<p>Aprobado</p>
+     					</div>
+     					<div>
+     						<p class="text-primary fs-5">21 °C</p>
+     						<p>Temperatura</p>
+     					</div>
+     				</section>
+     			</div>
+     		</div>
+     	
+     	</div>
+
+     </section>
+
+     <!-- FORMULARIO-BG -->
+
+     <section id="seccion-contacto" class="border-bottom border-secondary border-2">
+     	<div id="bg-contactos">
+     		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,32L120,58.7C240,85,480,139,720,144C960,149,1200,107,1320,85.3L1440,64L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
+     	</div>
+
+     	<!-- FORMULARIO -->
+
+     	<div class="container" id="contenedor-formulario">
+     		<div class="titulo-formulario" class="text-center mb-4">
+     			<div><img src="./img/logoblanco.png" alt="contacto" class="img-fluid"></div>
+     			<h2>Contactos</h2>
+     			<p class="fs-5">Estamos aqui para hacer realidad tus proyectos</p>
+     		</div>
+     		<form action="">
+     			 <div class="form-group">
+    
+    <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com" required>
+  </div>
+ 
+  <div class="form-group">
+    
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escribe tu mensaje aqui"></textarea>
+  </div>
+
+  <div class="mb-3">
+  	<button type="button" class="btn btn-outline-primary w-100 fs-5">Enviar Mensaje</button>
+  	
+  </div>
+
+     		</form>
+     	</div>
+
+     </section>
+
+     <!-- PIE DE LA PAGINA -->
+
+     <footer class="w-100 d-flex align-items-center justify-content-center flex-wrap">
+     	<p class="fs-5 px-3 pt-3">Servikasa &copy; Todos Los Derechos Reservados 2021 / Contactanos 0999075409</p>
+     	<div id="iconos"></div>
+     	<a href="https://www.facebook.com/ServiKasa.Ambato"><i class="bi bi-facebook"></i></a>
+     	<a href="#"><i class="bi bi-whatsapp"></i></a>
+     
+     </footer>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+    <script type="text/javascript" src="./main.js"></script>
+
+   
+    
+  </body>
+</html>
